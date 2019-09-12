@@ -7,7 +7,7 @@ const fileSystem = require('fs');
 const sharp = require('sharp');
 const ObjectId = require('mongodb').ObjectID;
 
-const url = "mongodb://localhost:27017";
+const url = "mongodb://157.245.104.175:27017";
 
 const app = express();
 const formData = multer();
